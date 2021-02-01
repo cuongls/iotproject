@@ -1,0 +1,24 @@
+﻿<div class="row clearfix" ng-controller="app.views.about as vm">
+    <div class="container">
+        <div class="row">&nbsp;</div>
+        <div class="row">
+            <div class="col-6">&nbsp;</div>
+            <div class="col-6">
+                Message...<input type="text" id="messageInput" />
+                <input type="button" id="sendButton" value="Send Message" ng-click="vm.Send()" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <hr />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">&nbsp;</div>
+            <div class="col-6">
+                <ul id="messagesList"></ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/lib/signalr2/dist/browser/signalr.js"></script>

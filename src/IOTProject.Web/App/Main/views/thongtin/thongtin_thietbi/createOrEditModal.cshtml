@@ -1,0 +1,27 @@
+﻿<form id="frm_create_nhomVatTu" name="CreateOrEditForm" novalidate class="his-form">
+    <div class="modal-header">
+        <button type="button" class="close" ng-click="vm.cancel()" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title">
+            <span>{{vm.title}}</span>
+        </h4>
+    </div>
+    <div class="modal-body">        
+        <div class="row clearfix">
+            <div class="col-sm-12">
+                <div class="row his-row"><div class="col-sm-2"><label for="idthietbi" class="form-label">@L("idthietbi")</label></div><div class="col-sm-10"><input id="idthietbi" type="text" name="idthietbi" ng-model="vm.objEntity.idthietbi" required  class="validate form-control"></div></div><div class="row his-row"><div class="col-sm-2"><label for="thietbi" class="form-label">@L("thietbi")</label></div><div class="col-sm-10"><input id="thietbi" type="text" name="thietbi" ng-model="vm.objEntity.thietbi" required  class="validate form-control"></div></div><div class="row his-row"><div class="col-sm-2"><label for="idthongtinquanly" class="form-label">@L("idthongtinquanly")</label></div><div class="col-sm-10"><input id="idthongtinquanly" type="text" name="idthongtinquanly" ng-model="vm.objEntity.idthongtinquanly" required  class="validate form-control"></div></div><div class="row his-row"><div class="col-sm-2"><label for="thongtinquanly" class="form-label">@L("thongtinquanly")</label></div><div class="col-sm-10"><input id="thongtinquanly" type="text" name="thongtinquanly" ng-model="vm.objEntity.thongtinquanly" required  class="validate form-control"></div></div><div class="row his-row"><div class="col-sm-2"><label for="trangthai" class="form-label">@L("trangthai")</label></div><div class="col-sm-10"><input id="trangthai" type="text" name="trangthai" ng-model="vm.objEntity.trangthai" required  class="validate form-control"></div></div><div class="row his-row"><div class="col-sm-2"><label for="description" class="form-label">@L("description")</label></div><div class="col-sm-10"><input id="description" type="text" name="description" ng-model="vm.objEntity.description" required  class="validate form-control"></div></div><div class="row his-row"><div class="col-sm-2"><label for="tenantid" class="form-label">@L("tenantid")</label></div><div class="col-sm-10"><input id="tenantId" type="text" name="tenantId" ng-model="vm.objEntity.tenantId" required  class="validate form-control"></div></div>
+            </div>            
+        </div>        
+    </div>
+    <div class="modal-footer">
+        <input id="id" type="hidden" name="id" ng-model="vm.objEntity.id" class="validate form-control">
+        <button type="button" class="btn btn-default waves-effect" ng-click="vm.cancel()">
+            @L("Cancel")
+        </button>
+        <button type="submit" class="btn btn-primary waves-effect" ng-click="vm.save()" ng-disabled="CreateOrEditForm.$invalid">
+            @L("Save")
+        </button>
+    </div>
+
+</form>
