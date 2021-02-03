@@ -3,7 +3,7 @@
         <div class="card main-content">
             <div class="header">
                 <h2 class="pull-left">
-                    Danh mục DM_TRAM
+                    Danh mục nhà trạm
                 </h2>
                 <div class="pull-right m-r-25 top-actions">
                     <button type="button" class="btn btn-primary waves-effect" ng-click="vm.openCreationModal();">
@@ -44,42 +44,23 @@
                 <table class="table table-hover table-striped his-table">
                     <thead>
                         <tr>
-                            <th width="5px">
-                                <input type="checkbox" id="chkAll" ng-model="chkAll" />
-                                <label for="chkAll"></label>
-                            </th>
-                            <th width="5px" class="text-center">@L("STT")</th>
-                            
-                            <th>IDDONVI</th>
-<th>DONVI</th>
-<th>NAME</th>
-<th>CODE</th>
-<th>ADDRESS</th>
-<th>DESCRIPTION</th>
-<th>TenantId</th>
-
-
+                            <th width="5px" class="text-center">STT</th>
+                            <th>Đơn vị</th>
+                            <th>Tên trạm</th>
+                            <th>Mã trạm</th>
+                            <th>Địa chỉ</th>
+                            <th>Mô tả</th>
                             <th width="10%">Xử lý</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr ng-repeat="item in vm.objEntitys">                            
-                            <td>
-                                <input ng-checked="chkAll" type="checkbox" id="checkbox_{{item.id}}" value="{{item.id}}" />
-                                <label for="checkbox_{{item.id}}"></label>
-                            </td>
                             <td class="text-center" >{{$index+1}}</td>
-                            
-                            <td>{{item.iddonvi}}</td>
-<td>{{item.donvi}}</td>
-<td>{{item.name}}</td>
-<td>{{item.code}}</td>
-<td>{{item.address}}</td>
-<td>{{item.description}}</td>
-<td>{{item.tenantId}}</td>
-
-
-
+                            <td>{{item.donvi.name}}</td>
+                            <td>{{item.name}}</td>
+                            <td>{{item.code}}</td>
+                            <td>{{item.address}}</td>
+                            <td>{{item.description}}</td>
                             <td class="dropdown">                                
                                 <ul class="list-inline">
                                     <li><a href="javascript:void(0);" class="waves-effect waves-block" ng-click="vm.openEditModal(item)" title="@L("Edit")" ><i class="material-icons">create</i></a></li>

@@ -13,7 +13,8 @@ namespace IOTProject.DanhMuc.Dtos
          public string NAME { get; set; }
  public string CODE { get; set; }
  public string DESCRIPTION { get; set; }
- public int TenantId { get; set; }
+        public int SAPXEP { get; set; }
+        public int TenantId { get; set; }
 
     }
 }

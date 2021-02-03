@@ -3,7 +3,7 @@
         <div class="card main-content">
             <div class="header">
                 <h2 class="pull-left">
-                    Danh mục DM_ThietBi
+                    Danh mục Thiết bị
                 </h2>
                 <div class="pull-right m-r-25 top-actions">
                     <button type="button" class="btn btn-primary waves-effect" ng-click="vm.openCreationModal();">
@@ -44,46 +44,28 @@
                 <table class="table table-hover table-striped his-table">
                     <thead>
                         <tr>
-                            <th width="5px">
-                                <input type="checkbox" id="chkAll" ng-model="chkAll" />
-                                <label for="chkAll"></label>
-                            </th>
-                            <th width="5px" class="text-center">@L("STT")</th>
-                            
-                            <th>IDTRAM</th>
-<th>TRAM</th>
-<th>NAME</th>
-<th>CODE</th>
-<th>IP</th>
-<th>PORT_INFO</th>
-<th>DESCRIPTION</th>
-<th>TenantId</th>
-
-
-                            <th width="10%">Xử lý</th>
+                            <th width="5px" class="text-center">STT</th>
+                            <th>Trạm</th>
+                            <th>Tên thiết bị</th>
+                            <th>Mã</th>
+                            <th>IP</th>
+                            <th>Thông tin</th>
+                            <th>Mô tả</th>
+                            <th width="15%">Xử lý</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr ng-repeat="item in vm.objEntitys">                            
-                            <td>
-                                <input ng-checked="chkAll" type="checkbox" id="checkbox_{{item.id}}" value="{{item.id}}" />
-                                <label for="checkbox_{{item.id}}"></label>
-                            </td>
                             <td class="text-center" >{{$index+1}}</td>
-                            
-                            <td>{{item.idtram}}</td>
-<td>{{item.tram}}</td>
-<td>{{item.name}}</td>
-<td>{{item.code}}</td>
-<td>{{item.ip}}</td>
-<td>{{item.porT_INFO}}</td>
-<td>{{item.description}}</td>
-<td>{{item.tenantId}}</td>
-
-
-
+                            <td>{{item.tram.name}}</td>
+                            <td>{{item.name}}</td>
+                            <td>{{item.code}}</td>
+                            <td>{{item.ip}}</td>
+                            <td>{{item.porT_INFO}}</td>
+                            <td>{{item.description}}</td>
                             <td class="dropdown">                                
                                 <ul class="list-inline">
+                                    <li><a href="javascript:void(0);" class="waves-effect waves-block" ng-click="vm.openSettingModal(item)" title="@L("Setting")" ><i class="material-icons">settings</i></a></li>
                                     <li><a href="javascript:void(0);" class="waves-effect waves-block" ng-click="vm.openEditModal(item)" title="@L("Edit")" ><i class="material-icons">create</i></a></li>
                                     <li><a href="javascript:void(0);" class="waves-effect waves-block" ng-click="vm.delete(item)" title="@L("Delete")"><i class="material-icons">delete_sweep</i></a></li>
                                 </ul>

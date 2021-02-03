@@ -289,6 +289,14 @@
     <Compile Include="Migrations\202101311125225_add_danhmuc_2.designer.cs">
       <DependentUpon>202101311125225_add_danhmuc_2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202102030218275_add_trangthai_thietbi.cs" />
+    <Compile Include="Migrations\202102030218275_add_trangthai_thietbi.designer.cs">
+      <DependentUpon>202102030218275_add_trangthai_thietbi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202102030344016_add_sapxep_thongtinquanlys.cs" />
+    <Compile Include="Migrations\202102030344016_add_sapxep_thongtinquanlys.designer.cs">
+      <DependentUpon>202102030344016_add_sapxep_thongtinquanlys.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\AbpZeroDbMigrator.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Migrations\SeedData\DefaultEditionsCreator.cs" />
@@ -355,6 +363,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202101311125225_add_danhmuc_2.resx">
       <DependentUpon>202101311125225_add_danhmuc_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202102030218275_add_trangthai_thietbi.resx">
+      <DependentUpon>202102030218275_add_trangthai_thietbi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202102030344016_add_sapxep_thongtinquanlys.resx">
+      <DependentUpon>202102030344016_add_sapxep_thongtinquanlys.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

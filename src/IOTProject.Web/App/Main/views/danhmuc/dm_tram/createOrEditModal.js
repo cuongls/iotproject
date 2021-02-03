@@ -2,8 +2,8 @@
 //@TODO: Đổi tên abp.services.app.cHUCVU tương ứng với app service
 (function () {
     angular.module('app').controller('app.views.DM_TRAM.createOrEditModal', [
-        '$scope', '$uibModalInstance', 'abp.services.app.dM_TRAM', 'id',
-        function ($scope, $uibModalInstance, localService, id) {
+        '$scope', '$uibModalInstance', 'abp.services.app.dM_TRAM', 'id', 'abp.services.app.dM_DonVi',
+        function ($scope, $uibModalInstance, localService, id, dM_DonViService) {
             var vm = this;
             vm.title = "Thêm mới";
             vm.objEntity = { 
@@ -16,6 +16,7 @@
                 localService.getForEdit({ id: id })
                     .then(function (result) {
                         vm.objEntity = result.data;
+                        vm.objEntity.iddonvi = result.data.iddonvi + '';
                         vm.title = "Sửa";
                     });
             }
@@ -42,7 +43,17 @@
             vm.cancel = function () {
                 $uibModalInstance.dismiss({});
             };
-
+            function GetAllDonVi() {
+                dM_DonViService.getDM_DonVis({
+                    Filter: "",
+                    maxResultCount: 99,
+                    SkipCount: 0
+                }).then(function (result) {
+                    vm.donvis = result.data.items;
+                    vm.objEntity.iddonvi = vm.donvis[0].id + '';
+                }); 
+            }
+            GetAllDonVi();
             init();
         }
     ]);

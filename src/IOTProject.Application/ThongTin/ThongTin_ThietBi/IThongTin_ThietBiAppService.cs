@@ -2,6 +2,7 @@
 using Abp.Application.Services.Dto;
 using System.Threading.Tasks;
 using IOTProject.ThongTin.Dtos;
+using System.Collections.Generic;
 
 namespace IOTProject.ThongTin
 {
@@ -11,6 +12,7 @@ namespace IOTProject.ThongTin
         Task<ThongTin_ThietBiDto> GetForEdit(GetThongTin_ThietBi input);
         void CreateThongTin_ThietBi(CreateOrEditThongTin_ThietBi input);
         void UpdateThongTin_ThietBi(CreateOrEditThongTin_ThietBi input);
+        List<ThongTin_ThietBiDto> GetThongTinQuanLyByIdThietBi(long idthietbi);
         void Delete(EntityDto<int> input);
     }
 }

@@ -91,7 +91,11 @@
                     templateUrl: '/App/Main/views/danhmuc/dm_trangthai/index.cshtml',
                     menu: 'dm_trangthai'
                 })
-
+                .state('thongtingiamsat', {
+                    url: '/thongtingiamsat',
+                    templateUrl: '/App/Main/views/thongtin/index.cshtml',
+                    menu: 'thongtingiamsat'
+                })
                 ;
         }
     ]);

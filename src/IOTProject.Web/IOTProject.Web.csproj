@@ -496,6 +496,7 @@
     <Content Include="App\Main\views\danhmuc\dm_donvi\index.js" />
     <Content Include="App\Main\views\danhmuc\dm_sensor\createOrEditModal.js" />
     <Content Include="App\Main\views\danhmuc\dm_sensor\index.js" />
+    <Content Include="App\Main\views\danhmuc\dm_thietbi\settingModal.js" />
     <Content Include="App\Main\views\danhmuc\dm_thietbi\createOrEditModal.js" />
     <Content Include="App\Main\views\danhmuc\dm_thietbi\index.js" />
     <Content Include="App\Main\views\danhmuc\dm_thongtinquanly\createOrEditModal.js" />
@@ -518,8 +519,7 @@
     <Content Include="App\Main\views\roles\createModal.js" />
     <Content Include="App\Main\views\roles\index.js" />
     <Content Include="App\Main\views\tenants\editModal.js" />
-    <Content Include="App\Main\views\thongtin\thongtin_thietbi\createOrEditModal.js" />
-    <Content Include="App\Main\views\thongtin\thongtin_thietbi\index.js" />
+    <Content Include="App\Main\views\thongtin\index.js" />
     <Content Include="App\Main\views\users\editModal.js" />
     <Content Include="App\Main\views\users\createModal.js" />
     <Content Include="App\Main\views\users\index.js" />
@@ -2766,8 +2766,8 @@
     <Content Include="App\Main\views\danhmuc\dm_tram\index.cshtml" />
     <Content Include="App\Main\views\danhmuc\dm_trangthai\createOrEditModal.cshtml" />
     <Content Include="App\Main\views\danhmuc\dm_trangthai\index.cshtml" />
-    <Content Include="App\Main\views\thongtin\thongtin_thietbi\createOrEditModal.cshtml" />
-    <Content Include="App\Main\views\thongtin\thongtin_thietbi\index.cshtml" />
+    <Content Include="App\Main\views\danhmuc\dm_thietbi\settingModal.cshtml" />
+    <Content Include="App\Main\views\thongtin\index.cshtml" />
     <None Include="bundleconfig.json" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">

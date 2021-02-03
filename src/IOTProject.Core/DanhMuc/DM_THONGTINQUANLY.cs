@@ -18,6 +18,7 @@ namespace IOTProject.DanhMuc
         public virtual string CODE { get; set; }
         [StringLength(LimitTextLength.Length500)]
         public virtual string DESCRIPTION { get; set; }
+        public virtual int SAPXEP { get; set; }
         public int TenantId { get; set; }
     }
 }

@@ -1,0 +1,257 @@
+﻿<div class="row clearfix" ng-controller="app.views.thongtin.index as vm">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="card main-content">
+            <div class="body table-responsive">
+
+                <div class="row clearfix">
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 margin-0">
+                        <div class="form-group">
+                            <div class="form-line">
+                                <input type="text" ng-model="vm.Filter" class="form-control" placeholder="Nhập thông tin tìm kiếm">
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 margin-0">
+                        <button type="button" class="btn btn-primary waves-effect" ng-click="vm.refresh();">
+                            Tìm kiếm
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="giamsatthongtin">
+                    <div class="cot1 col-sm-6 col-xs-12">
+                        <div class="block" ng-repeat="item in vm.objEntitys.cot2">
+                            <div class="header">
+                                <h2>{{item.thietbi.code}}</h2>
+                                <ul class="header-dropdown m-r--5">
+                                    <li class="dropdown">
+                                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                            <i class="material-icons">more_vert</i>
+                                        </a>
+                                        <ul class="dropdown-menu pull-right">
+                                            <li><a href="javascript:void(0);">Action</a></li>
+                                            <li><a href="javascript:void(0);">Another action</a></li>
+                                            <li><a href="javascript:void(0);">Something else here</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="body">
+                                <div class="row">
+                                    <div class="thongtin col-sm-6 col-xs-12">
+                                        <div ng-repeat="thongtin in item.lsThongTin">
+                                            <div ng-if="thongtin.thongtinquanly.sapxep > 3">
+                                                <div class="col col-sm-8 col-xs-12"> {{thongtin.thongtinquanly.name}}</div>
+                                                @*<div class="col-sm-6 col-xs-12 align-right" style="margin-bottom:0px !important">
+                                        <div class="switch panel-switch-btn">
+                                            <label>OFF<input type="checkbox" id="realtime" checked><span class="lever switch-col-cyan"></span>ON</label>
+                                        </div>
+                                    </div>*@
+                                                <div class="col col-sm-4 col-xs-12">
+                                                    <button ng-if="thongtin.trangthai == 1" type="button" class="btn btn-primary waves-effect" style="background-color: #c4c9c4 !important" ng-click="vm.refresh();">
+                                                        OFF
+                                                    </button>
+                                                    <button ng-if="thongtin.trangthai == 0" type="button" class="btn btn-primary waves-effect" style="background-color: #1ff326 !important" ng-click="vm.refresh();">
+                                                        ON
+                                                    </button>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="thongtin col-sm-6 col-xs-12">
+                                        <div class="row1">
+                                            <div class="col col-sm-6 col-xs-12">
+                                                <div class="nhietdo">
+                                                    {{item.lsThongTin[0].trangthai}} °C
+                                                </div>
+                                                <div class="mota">
+                                                    Nhiệt độ trong phòng
+                                                </div>
+                                            </div>
+                                            <div class="col col-sm-6 col-xs-12">
+                                                <div class="nhietdo">
+                                                    {{item.lsThongTin[1].trangthai}} °C
+                                                </div>
+                                                <div class="mota">
+                                                    Nhiệt độ môi trường
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row1">
+                                            <div class="col col-sm-6 col-xs-12">
+                                                <div class="nhietdo">
+                                                    {{item.lsThongTin[2].trangthai}} %
+                                                </div>
+                                                <div class="mota">
+                                                    Độ ẩm trong phòng
+                                                </div>
+                                            </div>
+                                            <div class="col col-sm-6 col-xs-12">
+                                                <div class="nhietdo">
+                                                    {{item.lsThongTin[3].trangthai}} %
+                                                </div>
+                                                <div class="mota">
+                                                    Độ ẩm môi trường
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cot1 col-sm-6 col-xs-12">
+                        <div class="block" ng-repeat="item in vm.objEntitys.cot1">
+                            <div class="header">
+                                <h2>{{item.thietbi.code}}</h2>
+                                <ul class="header-dropdown m-r--5">
+                                    <li class="dropdown">
+                                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                            <i class="material-icons">more_vert</i>
+                                        </a>
+                                        <ul class="dropdown-menu pull-right">
+                                            <li><a href="javascript:void(0);">Action</a></li>
+                                            <li><a href="javascript:void(0);">Another action</a></li>
+                                            <li><a href="javascript:void(0);">Something else here</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="body">
+                                <div class="row">
+                                    <div class="thongtin col-sm-6 col-xs-12">
+                                        <div ng-repeat="thongtin in item.lsThongTin">
+                                            <div ng-if="thongtin.thongtinquanly.sapxep > 3">
+                                                <div class="col col-sm-8 col-xs-12"> {{thongtin.thongtinquanly.name}}</div>
+                                                @*<div class="col-sm-6 col-xs-12 align-right" style="margin-bottom:0px !important">
+                                        <div class="switch panel-switch-btn">
+                                            <label>OFF<input type="checkbox" id="realtime" checked><span class="lever switch-col-cyan"></span>ON</label>
+                                        </div>
+                                    </div>*@
+                                                <div class="col col-sm-4 col-xs-12">
+                                                    <button ng-if="thongtin.trangthai == 1" type="button" class="btn btn-primary waves-effect" style="background-color: #c4c9c4 !important" ng-click="vm.refresh();">
+                                                        OFF
+                                                    </button>
+                                                    <button ng-if="thongtin.trangthai == 0" type="button" class="btn btn-primary waves-effect" style="background-color: #1ff326 !important" ng-click="vm.refresh();">
+                                                        ON
+                                                    </button>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="thongtin col-sm-6 col-xs-12">
+                                        <div class="row1">
+                                            <div class="col col-sm-6 col-xs-12">
+                                                <div class="nhietdo">
+                                                    {{item.lsThongTin[0].trangthai}} °C
+                                                </div>
+                                                <div class="mota">
+                                                    Nhiệt độ trong phòng
+                                                </div>
+                                            </div>
+                                            <div class="col col-sm-6 col-xs-12">
+                                                <div class="nhietdo">
+                                                    {{item.lsThongTin[1].trangthai}} °C
+                                                </div>
+                                                <div class="mota">
+                                                    Nhiệt độ môi trường
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row1">
+                                            <div class="col col-sm-6 col-xs-12">
+                                                <div class="nhietdo">
+                                                    {{item.lsThongTin[2].trangthai}} %
+                                                </div>
+                                                <div class="mota">
+                                                    Độ ẩm trong phòng
+                                                </div>
+                                            </div>
+                                            <div class="col col-sm-6 col-xs-12">
+                                                <div class="nhietdo">
+                                                    {{item.lsThongTin[3].trangthai}} %
+                                                </div>
+                                                <div class="mota">
+                                                    Độ ẩm môi trường
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ******************************************************** -->
+                @*<table class="table table-hover table-striped his-table">
+                    <tbody>
+                        <tr ng-repeat="item in vm.objEntitys">
+                            <td>
+                                <div class="card">
+                                    <div class="header">
+                                        <h2>{{item.name}}</h2>
+                                        <ul class="header-dropdown m-r--5">
+                                            <li class="dropdown">
+                                                <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                                    <i class="material-icons">more_vert</i>
+                                                </a>
+                                                <ul class="dropdown-menu pull-right">
+                                                    <li><a href="javascript:void(0);">Action</a></li>
+                                                    <li><a href="javascript:void(0);">Another action</a></li>
+                                                    <li><a href="javascript:void(0);">Something else here</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="body">
+                                        <div class="col-sm-6">
+                                            <div ng-repeat="thongtin in vm.objEntitys">
+                                                <div> {{thongtin.name}}</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">dsfasd</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="card">
+                                    <div class="header">
+                                        <h2>{{item.name}}</h2>
+                                        <ul class="header-dropdown m-r--5">
+                                            <li class="dropdown">
+                                                <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                                    <i class="material-icons">more_vert</i>
+                                                </a>
+                                                <ul class="dropdown-menu pull-right">
+                                                    <li><a href="javascript:void(0);">Action</a></li>
+                                                    <li><a href="javascript:void(0);">Another action</a></li>
+                                                    <li><a href="javascript:void(0);">Something else here</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="body">
+                                        <table>
+
+                                        </table>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="pagination-wrap col-md-12">
+                    <ul uib-pagination total-items="totalItems" ng-model="currentPage" ng-change="pageChanged()" class="pagination" items-per-page="itemsPerPage"
+                        boundary-links="true" force-ellipses="true" max-size="maxSize" first-text="Trang đầu" last-text="Trang cuối"
+                        next-text ="Trang sau" previous-text="Trang trước"></ul>
+                </div>*@
+            </div>
+        </div>
+    </div>
+</div>

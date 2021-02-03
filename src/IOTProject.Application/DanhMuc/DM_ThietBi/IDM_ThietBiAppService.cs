@@ -12,5 +12,6 @@ namespace IOTProject.DanhMuc
         void CreateDM_ThietBi(CreateOrEditDM_ThietBi input);
         void UpdateDM_ThietBi(CreateOrEditDM_ThietBi input);
         void Delete(EntityDto<int> input);
+        GiamSatThietBi2Cot GetListGiamSatThietBi(GiamSatInput input);
     }
 }

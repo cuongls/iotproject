@@ -11,15 +11,19 @@ using Abp.AutoMapper;
 using System.Threading.Tasks;
 using Abp.Runtime.Session;
 using Abp.UI;
+using IOTProject.ThongTin;
 
 namespace IOTProject.DanhMuc
 {
     public class DM_ThietBiAppService : ApplicationService, IDM_ThietBiAppService
     {
         private readonly IRepository<DM_ThietBi, long> _repository;
-        public DM_ThietBiAppService(IRepository<DM_ThietBi, long> initRepository)
+        private readonly IThongTin_ThietBiAppService _thongTin_ThietBiService;
+        public DM_ThietBiAppService(IRepository<DM_ThietBi, long> initRepository,
+                                    IThongTin_ThietBiAppService thongTin_ThietBiService)
         {
             _repository = initRepository;
+            _thongTin_ThietBiService = thongTin_ThietBiService;
         }      
         public async Task<PagedResultDto<DM_ThietBiDto>> GetDM_ThietBis(GetDM_ThietBis input)
         {
@@ -79,6 +83,40 @@ namespace IOTProject.DanhMuc
         {
             _repository.Delete(input.Id);    
         }
-
+        public GiamSatThietBi2Cot GetListGiamSatThietBi(GiamSatInput input)
+        {
+            var lsThietBi = _repository.GetAll()
+                                       .WhereIf(input.iddonvi != 0, x => x.TRAM.IDDONVI == input.iddonvi)
+                                       .WhereIf(input.idtram != 0, x => x.IDTRAM == input.idtram)
+                                       .WhereIf(input.idthietbi != 0, x => x.Id == input.idtram)
+                                       .ToList().MapTo<List<DM_ThietBiDto>>();
+            GiamSatThietBi2Cot result = new GiamSatThietBi2Cot();
+            List <GiamSatThietBi> cot1 = new List<GiamSatThietBi>();
+            List<GiamSatThietBi> cot2 = new List<GiamSatThietBi>();
+            if(lsThietBi.Count > 0)
+            {
+                for (var i = 0; i < lsThietBi.Count; i++)
+                {
+                    
+                    if (i % 2 == 0)
+                    {
+                        GiamSatThietBi giamsat = new GiamSatThietBi();
+                        giamsat.thietbi = lsThietBi[i];
+                        giamsat.lsThongTin = _thongTin_ThietBiService.GetThongTinQuanLyByIdThietBi(lsThietBi[i].Id);
+                        cot2.Add(giamsat);
+                    }
+                    else
+                    {
+                        GiamSatThietBi giamsat = new GiamSatThietBi();
+                        giamsat.thietbi = lsThietBi[i];
+                        giamsat.lsThongTin = _thongTin_ThietBiService.GetThongTinQuanLyByIdThietBi(lsThietBi[i].Id);
+                        cot1.Add(giamsat);
+                    }
+                }
+            }
+            result.cot1 = cot1;
+            result.cot2 = cot2;
+            return result;
+        }
     }
 }

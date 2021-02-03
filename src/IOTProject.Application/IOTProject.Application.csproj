@@ -240,6 +240,9 @@
     <Compile Include="DanhMuc\DM_ThietBi\Dtos\GetDM_ThietBi.cs" />
     <Compile Include="DanhMuc\DM_ThietBi\Dtos\GetDM_ThietBis.cs" />
     <Compile Include="DanhMuc\DM_ThietBi\Dtos\GetDM_ThietBisOutput.cs" />
+    <Compile Include="DanhMuc\DM_ThietBi\Dtos\GiamSatInput.cs" />
+    <Compile Include="DanhMuc\DM_ThietBi\Dtos\GiamSatThietBi.cs" />
+    <Compile Include="DanhMuc\DM_ThietBi\Dtos\GiamSatThietBi2Cot.cs" />
     <Compile Include="DanhMuc\DM_ThietBi\IDM_ThietBiAppService.cs" />
     <Compile Include="DanhMuc\DM_THONGTINQUANLY\DM_THONGTINQUANLYAppService.cs" />
     <Compile Include="DanhMuc\DM_THONGTINQUANLY\Dtos\CreateOrEditDM_THONGTINQUANLY.cs" />

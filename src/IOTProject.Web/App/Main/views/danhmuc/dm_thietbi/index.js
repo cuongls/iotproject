@@ -8,6 +8,7 @@
             //Định nghĩa các biến 
             //@TODO: Đổi tên địa chỉ dẫn tới file view
             var createOrEditTemplate = '/App/Main/views/DanhMuc/dm_thietbi/createOrEditModal.cshtml';            
+            var settingTemplate = '/App/Main/views/DanhMuc/dm_thietbi/settingModal.cshtml';            
             //Cấu hình phân trang
             $scope.totalItems = 0;
             $scope.currentPage = 1;
@@ -81,10 +82,33 @@
                     getAll();
                 });
             };
+            vm.openSettingModal = function (obj) {
+                var modalInstance = $uibModal.open({
+                    templateUrl: settingTemplate,
+                    controller: 'app.views.DM_ThietBi.settingModal as vm',
+                    backdrop: 'static',
+                    resolve: {
+                        id: function () {
+                            return obj.id;
+                        }
+                    }
+                });
+
+                modalInstance.rendered.then(function () {
+                    $timeout(function () {
+                        $.AdminBSB.input.activate();
+                    }, 0);
+                });
+
+                modalInstance.result.then(function () {
+                    getAll();
+                });
+            };
             
             vm.delete = function (obj) {
                 abp.message.confirm(
                     "Bạn chắc chắn muốn xóa '" + obj.tenchucvu + "'?",
+                    "Delete",
                     function (result) {
                         if (result) {
                             localService.delete({ id: obj.id })

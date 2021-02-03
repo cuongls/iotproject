@@ -80,6 +80,11 @@ namespace IOTProject.ThongTin
         {
             _repository.Delete(input.Id);    
         }
+        public List<ThongTin_ThietBiDto> GetThongTinQuanLyByIdThietBi(long idthietbi)
+        {
+            var result = _repository.GetAll().Where(x => x.IDTHIETBI == idthietbi).OrderBy(x => x.THONGTINQUANLY.SAPXEP).ToList();
+            return result.MapTo<List<ThongTin_ThietBiDto>>();
+        }
 
     }
 }

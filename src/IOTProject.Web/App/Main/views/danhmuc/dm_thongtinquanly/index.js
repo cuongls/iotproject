@@ -85,6 +85,7 @@
             vm.delete = function (obj) {
                 abp.message.confirm(
                     "Bạn chắc chắn muốn xóa '" + obj.tenchucvu + "'?",
+                    "Delete",
                     function (result) {
                         if (result) {
                             localService.delete({ id: obj.id })

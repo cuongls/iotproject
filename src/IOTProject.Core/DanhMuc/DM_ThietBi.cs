@@ -26,6 +26,7 @@ namespace IOTProject.DanhMuc
         public virtual string PORT_INFO { get; set; }
         [StringLength(LimitTextLength.Length500)]
         public virtual string DESCRIPTION { get; set; }
+        public virtual long? TRANGTHAI { get; set; }
         public int TenantId { get; set; }
     }
 }

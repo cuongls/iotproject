@@ -2,8 +2,8 @@
 //@TODO: Đổi tên abp.services.app.cHUCVU tương ứng với app service
 (function () {
     angular.module('app').controller('app.views.DM_ThietBi.createOrEditModal', [
-        '$scope', '$uibModalInstance', 'abp.services.app.dM_ThietBi', 'id',
-        function ($scope, $uibModalInstance, localService, id) {
+        '$scope', '$uibModalInstance', 'abp.services.app.dM_ThietBi', 'id', 'abp.services.app.dM_TRAM',
+        function ($scope, $uibModalInstance, localService, id, dM_TRAMService) {
             var vm = this;
             vm.title = "Thêm mới";
             vm.objEntity = { 
@@ -16,6 +16,7 @@
                 localService.getForEdit({ id: id })
                     .then(function (result) {
                         vm.objEntity = result.data;
+                        vm.objEntity.idtram = result.data.idtram + '';
                         vm.title = "Sửa";
                     });
             }
@@ -42,7 +43,17 @@
             vm.cancel = function () {
                 $uibModalInstance.dismiss({});
             };
-
+            function GetAllTram() {
+                dM_TRAMService.getDM_TRAMs({
+                    Filter: "",
+                    maxResultCount: 99,
+                    SkipCount: 0
+                }).then(function (result) {
+                    vm.trams = result.data.items;
+                    vm.objEntity.idtram = vm.trams[0].id + '';
+                });
+            }
+            GetAllTram();
             init();
         }
     ]);
