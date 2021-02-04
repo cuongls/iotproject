@@ -3717,3 +3717,87 @@ Abp.Authorization.AbpAuthorizationException: Current user did not login to the a
 DEBUG 2021-02-03 14:37:35,277 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b8060811-562b-4011-98e0-61dc60be9f09","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-03T14:37:35.2771831+07:00","Properties":{}}
 DEBUG 2021-02-03 14:37:35,285 [34   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b8060811-562b-4011-98e0-61dc60be9f09
 DEBUG 2021-02-03 14:38:01,717 [53   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 0acacb1e-54c5-43d7-8013-3a77d74b984e
+DEBUG 2021-02-03 14:53:34,829 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-02-03 14:53:34,847 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2021-02-03 14:53:34,859 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: IOTProject.Web.IOTProjectWebModule, IOTProject.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 14:53:34,861 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: IOTProject.IOTProjectDataModule, IOTProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 14:53:34,861 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 14:53:34,869 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 14:53:34,870 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 14:53:34,870 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 14:53:34,870 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 14:53:34,871 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 14:53:34,871 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: IOTProject.IOTProjectCoreModule, IOTProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 14:53:34,871 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: IOTProject.IOTProjectApplicationModule, IOTProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 14:53:34,871 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 14:53:34,871 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: IOTProject.Api.IOTProjectWebApiModule, IOTProject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 14:53:34,872 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 14:53:34,872 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 14:53:34,872 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 14:53:34,872 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 14:53:34,872 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 14:53:34,877 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2021-02-03 14:53:35,279 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-03 14:53:35,280 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-03 14:53:35,280 [1    ] o.Configuration.LanguageManagementConfig - Converted IOTProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-03 14:53:35,280 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-03 14:53:35,789 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: IOTProject.EntityFramework.IOTProjectDbContext, IOTProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 14:53:39,527 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-02-03 14:53:39,609 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-02-03 14:53:39,631 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-02-03 14:53:39,640 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: IOTProject
+DEBUG 2021-02-03 14:53:39,678 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-02-03 14:53:39,887 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-02-03 14:53:39,961 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 25 classes define auto mapping attributes
+DEBUG 2021-02-03 14:53:39,961 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-02-03 14:53:39,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-02-03 14:53:39,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.Users.Dto.CreateUserDto
+DEBUG 2021-02-03 14:53:39,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.Users.Dto.UpdateUserDto
+DEBUG 2021-02-03 14:53:39,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.Users.Dto.UserDto
+DEBUG 2021-02-03 14:53:39,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.ThongTin.Dtos.CreateOrEditThongTin_ThietBi
+DEBUG 2021-02-03 14:53:39,972 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.ThongTin.Dtos.ThongTin_ThietBiDto
+DEBUG 2021-02-03 14:53:39,972 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.Roles.Dto.PermissionDto
+DEBUG 2021-02-03 14:53:39,972 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-02-03 14:53:39,972 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.MultiTenancy.Dto.EditTenantDto
+DEBUG 2021-02-03 14:53:39,972 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.MultiTenancy.Dto.TenantDto
+DEBUG 2021-02-03 14:53:39,972 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.CreateOrEditDM_DonVi
+DEBUG 2021-02-03 14:53:39,973 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.DM_DonViDto
+DEBUG 2021-02-03 14:53:39,973 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.CreateOrEditDM_SENSOR
+DEBUG 2021-02-03 14:53:39,973 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.DM_SENSORDto
+DEBUG 2021-02-03 14:53:39,973 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.CreateOrEditDM_ThietBi
+DEBUG 2021-02-03 14:53:39,974 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.DM_ThietBiDto
+DEBUG 2021-02-03 14:53:39,974 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.CreateOrEditDM_THONGTINQUANLY
+DEBUG 2021-02-03 14:53:39,974 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.DM_THONGTINQUANLYDto
+DEBUG 2021-02-03 14:53:39,974 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.CreateOrEditDM_TRAM
+DEBUG 2021-02-03 14:53:39,974 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.DM_TRAMDto
+DEBUG 2021-02-03 14:53:39,974 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.CreateOrEditDM_TRANGTHAI
+DEBUG 2021-02-03 14:53:39,975 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.DM_TRANGTHAIDto
+DEBUG 2021-02-03 14:53:39,975 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.Web.Models.Account.TenantChangeViewModel
+DEBUG 2021-02-03 14:53:39,975 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2021-02-03 14:53:43,025 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2021-02-03 14:53:43,027 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2021-02-03 14:53:43,028 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.ThongTin.IThongTin_ThietBiAppService' with service name 'app/thongTin_ThietBi'.
+DEBUG 2021-02-03 14:53:43,029 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2021-02-03 14:53:43,031 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2021-02-03 14:53:43,033 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2021-02-03 14:53:43,036 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2021-02-03 14:53:43,038 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.DanhMuc.IDM_DonViAppService' with service name 'app/dM_DonVi'.
+DEBUG 2021-02-03 14:53:43,039 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.DanhMuc.IDM_SENSORAppService' with service name 'app/dM_SENSOR'.
+DEBUG 2021-02-03 14:53:43,040 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.DanhMuc.IDM_ThietBiAppService' with service name 'app/dM_ThietBi'.
+DEBUG 2021-02-03 14:53:43,041 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.DanhMuc.IDM_THONGTINQUANLYAppService' with service name 'app/dM_THONGTINQUANLY'.
+DEBUG 2021-02-03 14:53:43,042 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.DanhMuc.IDM_TRAMAppService' with service name 'app/dM_TRAM'.
+DEBUG 2021-02-03 14:53:43,043 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.DanhMuc.IDM_TRANGTHAIAppService' with service name 'app/dM_TRANGTHAI'.
+WARN  2021-02-03 14:53:49,984 [5    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2021-02-03 14:54:22,741 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"8cd1c564-0b41-4613-9b5a-ced61a69d141","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-03T14:54:22.7345822+07:00","Properties":{}}
+DEBUG 2021-02-03 14:54:22,758 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 8cd1c564-0b41-4613-9b5a-ced61a69d141
+WARN  2021-02-03 14:54:40,080 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Refresh' in localization source 'IOTProject'!
+DEBUG 2021-02-03 18:35:21,320 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 8cd1c564-0b41-4613-9b5a-ced61a69d141
