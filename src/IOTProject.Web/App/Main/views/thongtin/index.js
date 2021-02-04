@@ -42,6 +42,12 @@
 
             //Default on page load
             getAll();
+
+            var chatHub = $.connection.myChatHub;
+
+            chatHub.client.getMessage = function (message) { // Register for incoming messages
+                console.log('received message: ' + message);
+            };
                   
         }
     ]);

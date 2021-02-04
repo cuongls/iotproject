@@ -8036,12 +8036,15 @@ html.ie11 .bs-searchbox .form-control {
 }
     .giamsatthongtin .block {
         padding: 0px !important;
-        border: 1px solid #1174f0;
+        border: 1px solid #4B94C0;
         margin-bottom: 20px;
     }
         .giamsatthongtin .block .header {
-            background-color: #1f91f3;
+            background-color: #4B94C0;
         }
+            .giamsatthongtin .block .header h2 {
+                color: #fefefe !important;
+            }
             .giamsatthongtin .block .header.header-dropdown {
                 top: 10px !important;
             }

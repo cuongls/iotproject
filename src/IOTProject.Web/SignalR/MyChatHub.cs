@@ -24,12 +24,8 @@ namespace IOTProject.Web.SignalR
 
         public void SendMessage(string message)
         {
-            Clients.All.getMessage(string.Format("User {0}: {1}", AbpSession.UserId, message));
+            Clients.All.getMessage(string.Format("User {0}: {1}", Context.ConnectionId, message));
             Logger.Debug(Context.ConnectionId + " send:" + message);
-        }
-        public async Task SendMessage2(string user, string message)
-        {
-            await Clients.All.SendAsync("ReceiveMessage", user, message);
         }
         public async override Task OnConnected()
         {

@@ -11,24 +11,16 @@
                 createMenuItem(App.localize("Tenants"), "Pages.Tenants", "business", "tenants"),
                 createMenuItem(App.localize("Users"), "Pages.Users", "people", "users"),
                 createMenuItem(App.localize("Roles"), "Pages.Roles", "local_offer", "roles"),
-                createMenuItem(App.localize("About"), "", "info", "about"),
 
-                createMenuItem(App.localize("MultiLevelMenu"), "", "menu", "", [
-                    createMenuItem("ASP.NET Boilerplate", "", "", "", [
-                        createMenuItem("Home", "", "", "https://aspnetboilerplate.com/?ref=abptmpl"),
-                        createMenuItem("Templates", "", "", "https://aspnetboilerplate.com/Templates?ref=abptmpl"),
-                        createMenuItem("Samples", "", "", "https://aspnetboilerplate.com/Samples?ref=abptmpl"),
-                        createMenuItem("Documents", "", "", "https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl")
-                    ]),
-                    createMenuItem("ASP.NET Zero", "", "", "", [
-                        createMenuItem("Home", "", "", "https://aspnetzero.com?ref=abptmpl"),
-                        createMenuItem("Description", "", "", "https://aspnetzero.com/?ref=abptmpl#description"),
-                        createMenuItem("Features", "", "", "https://aspnetzero.com/?ref=abptmpl#features"),
-                        createMenuItem("Pricing", "", "", "https://aspnetzero.com/?ref=abptmpl#pricing"),
-                        createMenuItem("Faq", "", "", "https://aspnetzero.com/Faq?ref=abptmpl"),
-                        createMenuItem("Documents", "", "", "https://aspnetzero.com/Documents?ref=abptmpl")
-                    ])
-                ])
+                createMenuItem(App.localize("Danh mục"), "Pages.Roles", "list", "", [
+                    createMenuItem("Đơn vị", "", "list", "dm_donvi"),
+                    createMenuItem("Trạm", "", "list", "dm_tram"),
+                    createMenuItem("Thiết bị", "list", "", "dm_thietbi"),
+                    createMenuItem("Thông tin quản lý", "", "list", "dm_thongtinquanly"),
+                    createMenuItem("Sensor", "", "list", "dm_sensor"),
+                    createMenuItem("Trạng thái", "", "list", "dm_trangthai")
+                ]),
+                createMenuItem("Giám sát - Điều khiển", "Pages.Roles", "computer", "thongtingiamsat")
             ];
 
             vm.showMenuItem = function (menuItem) {
