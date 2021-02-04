@@ -3717,3 +3717,514 @@ Abp.Authorization.AbpAuthorizationException: Current user did not login to the a
 DEBUG 2021-02-03 14:37:35,277 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b8060811-562b-4011-98e0-61dc60be9f09","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-03T14:37:35.2771831+07:00","Properties":{}}
 DEBUG 2021-02-03 14:37:35,285 [34   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b8060811-562b-4011-98e0-61dc60be9f09
 DEBUG 2021-02-03 14:38:01,717 [53   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 0acacb1e-54c5-43d7-8013-3a77d74b984e
+DEBUG 2021-02-03 15:06:15,263 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-02-03 15:06:15,283 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2021-02-03 15:06:15,298 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: IOTProject.Web.IOTProjectWebModule, IOTProject.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 15:06:15,302 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: IOTProject.IOTProjectDataModule, IOTProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 15:06:15,302 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 15:06:15,302 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 15:06:15,302 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 15:06:15,303 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 15:06:15,303 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 15:06:15,303 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 15:06:15,304 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: IOTProject.IOTProjectCoreModule, IOTProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 15:06:15,304 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: IOTProject.IOTProjectApplicationModule, IOTProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 15:06:15,304 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 15:06:15,304 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: IOTProject.Api.IOTProjectWebApiModule, IOTProject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 15:06:15,305 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 15:06:15,305 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 15:06:15,305 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 15:06:15,305 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 15:06:15,306 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 15:06:15,318 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2021-02-03 15:06:15,792 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-03 15:06:15,792 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-03 15:06:15,793 [1    ] o.Configuration.LanguageManagementConfig - Converted IOTProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-03 15:06:15,793 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-03 15:06:16,927 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: IOTProject.EntityFramework.IOTProjectDbContext, IOTProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-03 15:06:21,782 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-02-03 15:06:21,888 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-02-03 15:06:21,925 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-02-03 15:06:21,936 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: IOTProject
+DEBUG 2021-02-03 15:06:21,953 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-02-03 15:06:22,230 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-02-03 15:06:22,355 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 25 classes define auto mapping attributes
+DEBUG 2021-02-03 15:06:22,356 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-02-03 15:06:22,369 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-02-03 15:06:22,370 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.Users.Dto.CreateUserDto
+DEBUG 2021-02-03 15:06:22,370 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.Users.Dto.UpdateUserDto
+DEBUG 2021-02-03 15:06:22,370 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.Users.Dto.UserDto
+DEBUG 2021-02-03 15:06:22,371 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.ThongTin.Dtos.CreateOrEditThongTin_ThietBi
+DEBUG 2021-02-03 15:06:22,371 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.ThongTin.Dtos.ThongTin_ThietBiDto
+DEBUG 2021-02-03 15:06:22,371 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.Roles.Dto.PermissionDto
+DEBUG 2021-02-03 15:06:22,372 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-02-03 15:06:22,372 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.MultiTenancy.Dto.EditTenantDto
+DEBUG 2021-02-03 15:06:22,372 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.MultiTenancy.Dto.TenantDto
+DEBUG 2021-02-03 15:06:22,373 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.CreateOrEditDM_DonVi
+DEBUG 2021-02-03 15:06:22,373 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.DM_DonViDto
+DEBUG 2021-02-03 15:06:22,373 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.CreateOrEditDM_SENSOR
+DEBUG 2021-02-03 15:06:22,375 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.DM_SENSORDto
+DEBUG 2021-02-03 15:06:22,375 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.CreateOrEditDM_ThietBi
+DEBUG 2021-02-03 15:06:22,375 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.DM_ThietBiDto
+DEBUG 2021-02-03 15:06:22,376 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.CreateOrEditDM_THONGTINQUANLY
+DEBUG 2021-02-03 15:06:22,376 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.DM_THONGTINQUANLYDto
+DEBUG 2021-02-03 15:06:22,376 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.CreateOrEditDM_TRAM
+DEBUG 2021-02-03 15:06:22,376 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.DM_TRAMDto
+DEBUG 2021-02-03 15:06:22,377 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.CreateOrEditDM_TRANGTHAI
+DEBUG 2021-02-03 15:06:22,377 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.DM_TRANGTHAIDto
+DEBUG 2021-02-03 15:06:22,377 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.Web.Models.Account.TenantChangeViewModel
+DEBUG 2021-02-03 15:06:22,378 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2021-02-03 15:06:27,247 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2021-02-03 15:06:27,248 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2021-02-03 15:06:27,250 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.ThongTin.IThongTin_ThietBiAppService' with service name 'app/thongTin_ThietBi'.
+DEBUG 2021-02-03 15:06:27,252 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2021-02-03 15:06:27,255 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2021-02-03 15:06:27,257 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2021-02-03 15:06:27,260 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2021-02-03 15:06:27,262 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.DanhMuc.IDM_DonViAppService' with service name 'app/dM_DonVi'.
+DEBUG 2021-02-03 15:06:27,263 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.DanhMuc.IDM_SENSORAppService' with service name 'app/dM_SENSOR'.
+DEBUG 2021-02-03 15:06:27,264 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.DanhMuc.IDM_ThietBiAppService' with service name 'app/dM_ThietBi'.
+DEBUG 2021-02-03 15:06:27,267 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.DanhMuc.IDM_THONGTINQUANLYAppService' with service name 'app/dM_THONGTINQUANLY'.
+DEBUG 2021-02-03 15:06:27,269 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.DanhMuc.IDM_TRAMAppService' with service name 'app/dM_TRAM'.
+DEBUG 2021-02-03 15:06:27,271 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.DanhMuc.IDM_TRANGTHAIAppService' with service name 'app/dM_TRANGTHAI'.
+DEBUG 2021-02-03 15:06:46,735 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b2a1f96c-f343-4ebe-bc93-551d533bd9c7","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-03T15:06:46.7232726+07:00","Properties":{}}
+DEBUG 2021-02-03 15:06:46,792 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b2a1f96c-f343-4ebe-bc93-551d533bd9c7
+DEBUG 2021-02-03 15:07:04,738 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f3070bc3-7f8d-4c61-aa59-607750cc4315","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-03T15:07:04.7380281+07:00","Properties":{}}
+DEBUG 2021-02-03 15:07:05,333 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f3070bc3-7f8d-4c61-aa59-607750cc4315
+DEBUG 2021-02-03 15:07:31,514 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b2a1f96c-f343-4ebe-bc93-551d533bd9c7
+WARN  2021-02-03 15:07:37,895 [22   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2021-02-03 15:07:53,894 [31   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"bc5c6dea-9fc0-4809-9bb4-2e80c5cd9d93","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-03T15:07:53.8949206+07:00","Properties":{}}
+DEBUG 2021-02-03 15:07:53,907 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: bc5c6dea-9fc0-4809-9bb4-2e80c5cd9d93
+DEBUG 2021-02-03 15:08:16,931 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f3070bc3-7f8d-4c61-aa59-607750cc4315
+DEBUG 2021-02-03 15:35:23,045 [83   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: bc5c6dea-9fc0-4809-9bb4-2e80c5cd9d93
+DEBUG 2021-02-03 15:35:26,388 [41   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a6c1bb97-3e01-4d57-b7ac-bcd092121428","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-03T15:35:26.3889002+07:00","Properties":{}}
+DEBUG 2021-02-03 15:35:26,429 [57   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a6c1bb97-3e01-4d57-b7ac-bcd092121428
+DEBUG 2021-02-03 15:36:46,915 [37   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a6c1bb97-3e01-4d57-b7ac-bcd092121428
+DEBUG 2021-02-03 15:36:50,732 [55   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"2490c589-68a0-4f7a-b7f0-83022f724b3e","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-03T15:36:50.7321609+07:00","Properties":{}}
+DEBUG 2021-02-03 15:36:50,767 [45   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 2490c589-68a0-4f7a-b7f0-83022f724b3e
+DEBUG 2021-02-03 15:37:07,370 [57   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a87fc453-261f-4bb3-9fb9-d8924268b0fe","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-03T15:37:07.370595+07:00","Properties":{}}
+DEBUG 2021-02-03 15:37:07,395 [57   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a87fc453-261f-4bb3-9fb9-d8924268b0fe
+DEBUG 2021-02-03 15:37:35,667 [31   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 2490c589-68a0-4f7a-b7f0-83022f724b3e
+DEBUG 2021-02-03 15:37:37,716 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"49314294-26e9-4995-98ea-960bfdc88305","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-03T15:37:37.7167502+07:00","Properties":{}}
+DEBUG 2021-02-03 15:37:37,754 [31   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 49314294-26e9-4995-98ea-960bfdc88305
+DEBUG 2021-02-03 15:38:05,667 [83   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a87fc453-261f-4bb3-9fb9-d8924268b0fe
+WARN  2021-02-03 15:39:19,411 [26   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2021-02-03 15:39:24,887 [37   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b9c38de4-9c30-4da6-a481-b0650cf68d8f","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-03T15:39:24.8876067+07:00","Properties":{}}
+DEBUG 2021-02-03 15:39:24,894 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b9c38de4-9c30-4da6-a481-b0650cf68d8f
+DEBUG 2021-02-03 15:39:40,417 [37   ] IOTProject.Web.SignalR.MyChatHub         - b9c38de4-9c30-4da6-a481-b0650cf68d8f send:d
+DEBUG 2021-02-03 15:39:46,435 [31   ] IOTProject.Web.SignalR.MyChatHub         - b9c38de4-9c30-4da6-a481-b0650cf68d8f send:d
+WARN  2021-02-03 15:39:47,554 [31   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2021-02-03 15:40:42,460 [36   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"db064d85-b575-48fb-a346-516c3fe0c0e6","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-03T15:40:42.4602958+07:00","Properties":{}}
+DEBUG 2021-02-03 15:40:42,485 [83   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: db064d85-b575-48fb-a346-516c3fe0c0e6
+DEBUG 2021-02-03 15:40:46,563 [57   ] IOTProject.Web.SignalR.MyChatHub         - db064d85-b575-48fb-a346-516c3fe0c0e6 send:ggggg
+DEBUG 2021-02-03 15:40:52,431 [48   ] IOTProject.Web.SignalR.MyChatHub         - db064d85-b575-48fb-a346-516c3fe0c0e6 send:ggggg
+DEBUG 2021-02-03 15:41:11,170 [36   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b9c38de4-9c30-4da6-a481-b0650cf68d8f
+DEBUG 2021-02-03 15:41:51,676 [41   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"5bad1af2-f310-4f3a-95a8-763a663994bb","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-03T15:41:51.6760184+07:00","Properties":{}}
+DEBUG 2021-02-03 15:41:51,685 [41   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 5bad1af2-f310-4f3a-95a8-763a663994bb
+DEBUG 2021-02-03 15:42:07,021 [41   ] IOTProject.Web.SignalR.MyChatHub         - 5bad1af2-f310-4f3a-95a8-763a663994bb send:dsfa
+DEBUG 2021-02-03 15:42:21,381 [41   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: db064d85-b575-48fb-a346-516c3fe0c0e6
+WARN  2021-02-03 15:42:47,900 [49   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2021-02-03 15:42:54,824 [44   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"40a795ba-4c04-478e-b2a6-4a0f15233e68","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2021-02-03T15:42:54.8246113+07:00","Properties":{}}
+DEBUG 2021-02-03 15:42:54,924 [48   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 40a795ba-4c04-478e-b2a6-4a0f15233e68
+DEBUG 2021-02-03 15:43:24,373 [49   ] IOTProject.Web.SignalR.MyChatHub         - 5bad1af2-f310-4f3a-95a8-763a663994bb send:gggggggggg
+DEBUG 2021-02-03 15:43:51,203 [37   ] IOTProject.Web.SignalR.MyChatHub         - 40a795ba-4c04-478e-b2a6-4a0f15233e68 send:ddd
+WARN  2021-02-03 15:45:43,505 [36   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+WARN  2021-02-04 09:19:01,372 [78   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2021-02-04 09:19:10,171 [58   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"644062ae-f7df-4ac5-ad75-fffdd91e4562","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-04T09:19:10.17198+07:00","Properties":{}}
+DEBUG 2021-02-04 09:19:10,181 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 644062ae-f7df-4ac5-ad75-fffdd91e4562
+DEBUG 2021-02-04 09:19:34,015 [78   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 49314294-26e9-4995-98ea-960bfdc88305
+DEBUG 2021-02-04 09:19:34,016 [78   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 5bad1af2-f310-4f3a-95a8-763a663994bb
+DEBUG 2021-02-04 09:20:51,602 [82   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 644062ae-f7df-4ac5-ad75-fffdd91e4562
+DEBUG 2021-02-04 09:20:55,480 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f1816382-611b-4113-ba00-2e34a89767e6","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-04T09:20:55.4803254+07:00","Properties":{}}
+DEBUG 2021-02-04 09:20:55,499 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f1816382-611b-4113-ba00-2e34a89767e6
+DEBUG 2021-02-04 09:21:09,981 [60   ] IOTProject.Web.SignalR.MyChatHub         - f1816382-611b-4113-ba00-2e34a89767e6 send:ddd
+WARN  2021-02-04 09:21:20,694 [78   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2021-02-04 09:21:27,443 [71   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"3a815bfe-0efe-43c9-ba7c-bc03ebc83910","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2021-02-04T09:21:27.4429087+07:00","Properties":{}}
+DEBUG 2021-02-04 09:21:27,467 [62   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 3a815bfe-0efe-43c9-ba7c-bc03ebc83910
+DEBUG 2021-02-04 09:21:33,612 [82   ] IOTProject.Web.SignalR.MyChatHub         - 3a815bfe-0efe-43c9-ba7c-bc03ebc83910 send:dd
+DEBUG 2021-02-04 09:21:37,884 [78   ] IOTProject.Web.SignalR.MyChatHub         - f1816382-611b-4113-ba00-2e34a89767e6 send:ddd
+DEBUG 2021-02-04 09:21:39,756 [71   ] IOTProject.Web.SignalR.MyChatHub         - 3a815bfe-0efe-43c9-ba7c-bc03ebc83910 send:dd
+DEBUG 2021-02-04 09:21:46,707 [62   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"cdd22987-6d90-4f31-8cfb-f70bc85998ff","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-04T09:21:46.7076433+07:00","Properties":{}}
+DEBUG 2021-02-04 09:21:46,718 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: cdd22987-6d90-4f31-8cfb-f70bc85998ff
+DEBUG 2021-02-04 09:21:54,727 [60   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 40a795ba-4c04-478e-b2a6-4a0f15233e68
+DEBUG 2021-02-04 09:22:02,988 [36   ] IOTProject.Web.SignalR.MyChatHub         - cdd22987-6d90-4f31-8cfb-f70bc85998ff send:gggggggggg
+DEBUG 2021-02-04 09:22:05,612 [60   ] IOTProject.Web.SignalR.MyChatHub         - cdd22987-6d90-4f31-8cfb-f70bc85998ff send:gggggggggg
+DEBUG 2021-02-04 09:22:08,836 [78   ] IOTProject.Web.SignalR.MyChatHub         - 3a815bfe-0efe-43c9-ba7c-bc03ebc83910 send:dd
+DEBUG 2021-02-04 09:22:11,500 [21   ] IOTProject.Web.SignalR.MyChatHub         - 3a815bfe-0efe-43c9-ba7c-bc03ebc83910 send:dd
+DEBUG 2021-02-04 09:22:14,764 [78   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f1816382-611b-4113-ba00-2e34a89767e6
+DEBUG 2021-02-04 09:24:48,885 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"43a0555c-cd1d-469f-823a-2d464522e2da","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-04T09:24:48.8850253+07:00","Properties":{}}
+DEBUG 2021-02-04 09:24:48,894 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 43a0555c-cd1d-469f-823a-2d464522e2da
+DEBUG 2021-02-04 09:24:55,319 [60   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"1b24b401-6541-42c9-aea8-e448715aa1f0","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-04T09:24:55.3198659+07:00","Properties":{}}
+DEBUG 2021-02-04 09:24:55,367 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 1b24b401-6541-42c9-aea8-e448715aa1f0
+DEBUG 2021-02-04 09:24:55,655 [60   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 3a815bfe-0efe-43c9-ba7c-bc03ebc83910
+DEBUG 2021-02-04 09:24:57,915 [60   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"d79284ce-fbc0-42c5-8ef3-e84fcf221230","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2021-02-04T09:24:57.9159446+07:00","Properties":{}}
+DEBUG 2021-02-04 09:24:57,931 [60   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: d79284ce-fbc0-42c5-8ef3-e84fcf221230
+DEBUG 2021-02-04 09:25:06,069 [21   ] IOTProject.Web.SignalR.MyChatHub         - d79284ce-fbc0-42c5-8ef3-e84fcf221230 send:dddd
+DEBUG 2021-02-04 09:25:15,286 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: cdd22987-6d90-4f31-8cfb-f70bc85998ff
+DEBUG 2021-02-04 09:25:15,542 [71   ] IOTProject.Web.SignalR.MyChatHub         - 1b24b401-6541-42c9-aea8-e448715aa1f0 send:eeeeeeeeee
+DEBUG 2021-02-04 09:25:17,762 [47   ] IOTProject.Web.SignalR.MyChatHub         - 1b24b401-6541-42c9-aea8-e448715aa1f0 send:eeeeeeeeee
+DEBUG 2021-02-04 09:25:18,078 [21   ] IOTProject.Web.SignalR.MyChatHub         - 1b24b401-6541-42c9-aea8-e448715aa1f0 send:eeeeeeeeee
+DEBUG 2021-02-04 09:25:18,525 [36   ] IOTProject.Web.SignalR.MyChatHub         - 1b24b401-6541-42c9-aea8-e448715aa1f0 send:eeeeeeeeee
+DEBUG 2021-02-04 09:25:18,742 [21   ] IOTProject.Web.SignalR.MyChatHub         - 1b24b401-6541-42c9-aea8-e448715aa1f0 send:eeeeeeeeee
+DEBUG 2021-02-04 09:25:18,941 [47   ] IOTProject.Web.SignalR.MyChatHub         - 1b24b401-6541-42c9-aea8-e448715aa1f0 send:eeeeeeeeee
+DEBUG 2021-02-04 09:25:19,134 [71   ] IOTProject.Web.SignalR.MyChatHub         - 1b24b401-6541-42c9-aea8-e448715aa1f0 send:eeeeeeeeee
+DEBUG 2021-02-04 09:25:19,309 [47   ] IOTProject.Web.SignalR.MyChatHub         - 1b24b401-6541-42c9-aea8-e448715aa1f0 send:eeeeeeeeee
+DEBUG 2021-02-04 09:25:19,509 [21   ] IOTProject.Web.SignalR.MyChatHub         - 1b24b401-6541-42c9-aea8-e448715aa1f0 send:eeeeeeeeee
+DEBUG 2021-02-04 09:25:19,693 [21   ] IOTProject.Web.SignalR.MyChatHub         - 1b24b401-6541-42c9-aea8-e448715aa1f0 send:eeeeeeeeee
+DEBUG 2021-02-04 09:25:25,322 [58   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 43a0555c-cd1d-469f-823a-2d464522e2da
+DEBUG 2021-02-04 09:26:00,846 [20   ] IOTProject.Web.SignalR.MyChatHub         - 1b24b401-6541-42c9-aea8-e448715aa1f0 send:eeeeeeeeee
+DEBUG 2021-02-04 09:30:35,311 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 1b24b401-6541-42c9-aea8-e448715aa1f0
+DEBUG 2021-02-04 09:30:37,191 [81   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e50e85bd-a496-48bc-a598-5cd9a534ae83","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-04T09:30:37.191504+07:00","Properties":{}}
+DEBUG 2021-02-04 09:30:37,215 [58   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e50e85bd-a496-48bc-a598-5cd9a534ae83
+DEBUG 2021-02-04 09:30:42,296 [71   ] IOTProject.Web.SignalR.MyChatHub         - e50e85bd-a496-48bc-a598-5cd9a534ae83 send:s
+DEBUG 2021-02-04 09:30:48,505 [74   ] IOTProject.Web.SignalR.MyChatHub         - e50e85bd-a496-48bc-a598-5cd9a534ae83 send:sv
+DEBUG 2021-02-04 09:33:49,930 [88   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b9b4b738-bcd8-4587-9733-66f641f6cb4b","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-04T09:33:49.930556+07:00","Properties":{}}
+DEBUG 2021-02-04 09:33:50,006 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b9b4b738-bcd8-4587-9733-66f641f6cb4b
+DEBUG 2021-02-04 09:34:00,493 [88   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"1474961c-91a1-4837-bf1b-270164920d1b","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-04T09:34:00.4933883+07:00","Properties":{}}
+DEBUG 2021-02-04 09:34:00,505 [73   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 1474961c-91a1-4837-bf1b-270164920d1b
+DEBUG 2021-02-04 09:34:03,757 [20   ] IOTProject.Web.SignalR.MyChatHub         - 1474961c-91a1-4837-bf1b-270164920d1b send:sds
+DEBUG 2021-02-04 09:34:19,050 [88   ] IOTProject.Web.SignalR.MyChatHub         - 1474961c-91a1-4837-bf1b-270164920d1b send:sds
+DEBUG 2021-02-04 09:34:37,248 [88   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: e50e85bd-a496-48bc-a598-5cd9a534ae83
+DEBUG 2021-02-04 09:38:39,457 [88   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b150469d-bf8a-45e4-b932-2cfa45c6d7e3","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-04T09:38:39.457923+07:00","Properties":{}}
+DEBUG 2021-02-04 09:38:39,514 [88   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b150469d-bf8a-45e4-b932-2cfa45c6d7e3
+DEBUG 2021-02-04 09:38:44,167 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"8cec27c7-6eb9-4a49-a302-496fe208433b","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-04T09:38:44.1670878+07:00","Properties":{}}
+DEBUG 2021-02-04 09:38:44,177 [58   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 8cec27c7-6eb9-4a49-a302-496fe208433b
+DEBUG 2021-02-04 09:38:58,410 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 1474961c-91a1-4837-bf1b-270164920d1b
+DEBUG 2021-02-04 09:39:02,085 [71   ] IOTProject.Web.SignalR.MyChatHub         - 8cec27c7-6eb9-4a49-a302-496fe208433b send:dddddd
+DEBUG 2021-02-04 09:39:03,426 [88   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b9b4b738-bcd8-4587-9733-66f641f6cb4b
+DEBUG 2021-02-04 09:39:10,604 [66   ] IOTProject.Web.SignalR.MyChatHub         - 8cec27c7-6eb9-4a49-a302-496fe208433b send:dddddd
+DEBUG 2021-02-04 09:44:09,600 [106  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 8cec27c7-6eb9-4a49-a302-496fe208433b
+DEBUG 2021-02-04 09:44:15,365 [90   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"268f7384-010b-4db3-8782-879355a8e926","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-04T09:44:15.3641605+07:00","Properties":{}}
+DEBUG 2021-02-04 09:44:15,397 [90   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 268f7384-010b-4db3-8782-879355a8e926
+DEBUG 2021-02-04 09:44:25,641 [90   ] IOTProject.Web.SignalR.MyChatHub         - 268f7384-010b-4db3-8782-879355a8e926 send:sfsds
+DEBUG 2021-02-04 09:44:44,187 [106  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"d0125891-b6dc-460a-b1fe-76d6890c1028","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-04T09:44:44.18782+07:00","Properties":{}}
+DEBUG 2021-02-04 09:44:44,199 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: d0125891-b6dc-460a-b1fe-76d6890c1028
+DEBUG 2021-02-04 09:44:52,014 [9    ] IOTProject.Web.SignalR.MyChatHub         - d0125891-b6dc-460a-b1fe-76d6890c1028 send:dddd
+DEBUG 2021-02-04 09:44:54,046 [101  ] IOTProject.Web.SignalR.MyChatHub         - d0125891-b6dc-460a-b1fe-76d6890c1028 send:dddd
+DEBUG 2021-02-04 09:44:56,998 [101  ] IOTProject.Web.SignalR.MyChatHub         - d0125891-b6dc-460a-b1fe-76d6890c1028 send:ddddàda
+DEBUG 2021-02-04 09:45:01,452 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"8713a81d-aa73-4ebc-a42b-65094f46e9c5","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-04T09:45:01.452779+07:00","Properties":{}}
+DEBUG 2021-02-04 09:45:01,464 [85   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 8713a81d-aa73-4ebc-a42b-65094f46e9c5
+DEBUG 2021-02-04 09:45:03,614 [106  ] IOTProject.Web.SignalR.MyChatHub         - 8713a81d-aa73-4ebc-a42b-65094f46e9c5 send:d
+DEBUG 2021-02-04 09:45:07,550 [98   ] IOTProject.Web.SignalR.MyChatHub         - 8713a81d-aa73-4ebc-a42b-65094f46e9c5 send:d
+DEBUG 2021-02-04 09:45:09,111 [101  ] IOTProject.Web.SignalR.MyChatHub         - 8713a81d-aa73-4ebc-a42b-65094f46e9c5 send:dfsaf
+DEBUG 2021-02-04 09:45:10,395 [98   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 268f7384-010b-4db3-8782-879355a8e926
+DEBUG 2021-02-04 09:45:10,799 [101  ] IOTProject.Web.SignalR.MyChatHub         - 8713a81d-aa73-4ebc-a42b-65094f46e9c5 send:dfsafadfa
+DEBUG 2021-02-04 09:45:12,342 [106  ] IOTProject.Web.SignalR.MyChatHub         - 8713a81d-aa73-4ebc-a42b-65094f46e9c5 send:dfsafadfa?
+DEBUG 2021-02-04 09:45:12,871 [106  ] IOTProject.Web.SignalR.MyChatHub         - 8713a81d-aa73-4ebc-a42b-65094f46e9c5 send:dfsafadfa?
+DEBUG 2021-02-04 09:45:13,115 [106  ] IOTProject.Web.SignalR.MyChatHub         - 8713a81d-aa73-4ebc-a42b-65094f46e9c5 send:dfsafadfa?
+DEBUG 2021-02-04 09:45:13,337 [105  ] IOTProject.Web.SignalR.MyChatHub         - 8713a81d-aa73-4ebc-a42b-65094f46e9c5 send:dfsafadfa?
+DEBUG 2021-02-04 09:45:13,534 [106  ] IOTProject.Web.SignalR.MyChatHub         - 8713a81d-aa73-4ebc-a42b-65094f46e9c5 send:dfsafadfa?
+DEBUG 2021-02-04 09:45:13,726 [101  ] IOTProject.Web.SignalR.MyChatHub         - 8713a81d-aa73-4ebc-a42b-65094f46e9c5 send:dfsafadfa?
+DEBUG 2021-02-04 09:45:14,087 [74   ] IOTProject.Web.SignalR.MyChatHub         - 8713a81d-aa73-4ebc-a42b-65094f46e9c5 send:dfsafadfa?
+DEBUG 2021-02-04 09:45:14,270 [105  ] IOTProject.Web.SignalR.MyChatHub         - 8713a81d-aa73-4ebc-a42b-65094f46e9c5 send:dfsafadfa?
+DEBUG 2021-02-04 09:45:14,447 [99   ] IOTProject.Web.SignalR.MyChatHub         - 8713a81d-aa73-4ebc-a42b-65094f46e9c5 send:dfsafadfa?
+DEBUG 2021-02-04 09:45:14,666 [101  ] IOTProject.Web.SignalR.MyChatHub         - 8713a81d-aa73-4ebc-a42b-65094f46e9c5 send:dfsafadfa?
+DEBUG 2021-02-04 09:45:14,831 [74   ] IOTProject.Web.SignalR.MyChatHub         - 8713a81d-aa73-4ebc-a42b-65094f46e9c5 send:dfsafadfa?
+DEBUG 2021-02-04 09:45:30,481 [90   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: d0125891-b6dc-460a-b1fe-76d6890c1028
+DEBUG 2021-02-04 09:46:26,749 [85   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"9e21376e-e99b-421f-b578-82c63be05b61","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-04T09:46:26.7490031+07:00","Properties":{}}
+DEBUG 2021-02-04 09:46:26,786 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 9e21376e-e99b-421f-b578-82c63be05b61
+DEBUG 2021-02-04 09:46:34,231 [98   ] IOTProject.Web.SignalR.MyChatHub         - 9e21376e-e99b-421f-b578-82c63be05b61 send:sdaf
+DEBUG 2021-02-04 09:46:38,151 [9    ] IOTProject.Web.SignalR.MyChatHub         - 9e21376e-e99b-421f-b578-82c63be05b61 send:sdaf
+DEBUG 2021-02-04 09:46:39,591 [90   ] IOTProject.Web.SignalR.MyChatHub         - 9e21376e-e99b-421f-b578-82c63be05b61 send:sdaf
+DEBUG 2021-02-04 09:46:45,522 [90   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"8ac09e26-4720-4dd8-b4a2-e077e1621aaa","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-04T09:46:45.5226442+07:00","Properties":{}}
+DEBUG 2021-02-04 09:46:45,532 [107  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 8ac09e26-4720-4dd8-b4a2-e077e1621aaa
+DEBUG 2021-02-04 09:46:50,106 [98   ] IOTProject.Web.SignalR.MyChatHub         - 8ac09e26-4720-4dd8-b4a2-e077e1621aaa send:ssssssssss
+DEBUG 2021-02-04 09:46:50,956 [74   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 8713a81d-aa73-4ebc-a42b-65094f46e9c5
+DEBUG 2021-02-04 09:47:01,892 [106  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: d79284ce-fbc0-42c5-8ef3-e84fcf221230
+DEBUG 2021-02-04 09:47:03,567 [98   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"56a2d263-4cb2-4f0a-9b07-d46c7e52dfb1","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2021-02-04T09:47:03.5670964+07:00","Properties":{}}
+DEBUG 2021-02-04 09:47:03,583 [74   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 56a2d263-4cb2-4f0a-9b07-d46c7e52dfb1
+DEBUG 2021-02-04 09:47:07,279 [108  ] IOTProject.Web.SignalR.MyChatHub         - 56a2d263-4cb2-4f0a-9b07-d46c7e52dfb1 send:asf
+DEBUG 2021-02-04 09:47:09,527 [74   ] IOTProject.Web.SignalR.MyChatHub         - 56a2d263-4cb2-4f0a-9b07-d46c7e52dfb1 send:asf
+DEBUG 2021-02-04 09:47:16,014 [98   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 9e21376e-e99b-421f-b578-82c63be05b61
+DEBUG 2021-02-04 09:47:44,711 [108  ] IOTProject.Web.SignalR.MyChatHub         - 56a2d263-4cb2-4f0a-9b07-d46c7e52dfb1 send:asfasfd
+DEBUG 2021-02-04 09:53:53,066 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-02-04 09:53:53,087 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2021-02-04 09:53:53,097 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: IOTProject.Web.IOTProjectWebModule, IOTProject.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-04 09:53:53,099 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: IOTProject.IOTProjectDataModule, IOTProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-04 09:53:53,099 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-04 09:53:53,100 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-04 09:53:53,100 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-04 09:53:53,100 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-04 09:53:53,100 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-04 09:53:53,100 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-04 09:53:53,100 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: IOTProject.IOTProjectCoreModule, IOTProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-04 09:53:53,101 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: IOTProject.IOTProjectApplicationModule, IOTProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-04 09:53:53,101 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-04 09:53:53,101 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: IOTProject.Api.IOTProjectWebApiModule, IOTProject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-04 09:53:53,101 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-04 09:53:53,101 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-04 09:53:53,101 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-04 09:53:53,101 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-04 09:53:53,102 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-04 09:53:53,107 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2021-02-04 09:53:53,568 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-04 09:53:53,568 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-04 09:53:53,568 [1    ] o.Configuration.LanguageManagementConfig - Converted IOTProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-04 09:53:53,568 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-04 09:53:54,239 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: IOTProject.EntityFramework.IOTProjectDbContext, IOTProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-04 09:53:59,378 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-02-04 09:53:59,484 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-02-04 09:53:59,529 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-02-04 09:53:59,545 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: IOTProject
+DEBUG 2021-02-04 09:53:59,561 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-02-04 09:53:59,832 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-02-04 09:53:59,953 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 25 classes define auto mapping attributes
+DEBUG 2021-02-04 09:53:59,953 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-02-04 09:53:59,967 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-02-04 09:53:59,968 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.Users.Dto.CreateUserDto
+DEBUG 2021-02-04 09:53:59,969 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.Users.Dto.UpdateUserDto
+DEBUG 2021-02-04 09:53:59,969 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.Users.Dto.UserDto
+DEBUG 2021-02-04 09:53:59,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.ThongTin.Dtos.CreateOrEditThongTin_ThietBi
+DEBUG 2021-02-04 09:53:59,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.ThongTin.Dtos.ThongTin_ThietBiDto
+DEBUG 2021-02-04 09:53:59,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.Roles.Dto.PermissionDto
+DEBUG 2021-02-04 09:53:59,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-02-04 09:53:59,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.MultiTenancy.Dto.EditTenantDto
+DEBUG 2021-02-04 09:53:59,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.MultiTenancy.Dto.TenantDto
+DEBUG 2021-02-04 09:53:59,972 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.CreateOrEditDM_DonVi
+DEBUG 2021-02-04 09:53:59,972 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.DM_DonViDto
+DEBUG 2021-02-04 09:53:59,972 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.CreateOrEditDM_SENSOR
+DEBUG 2021-02-04 09:53:59,973 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.DM_SENSORDto
+DEBUG 2021-02-04 09:53:59,973 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.CreateOrEditDM_ThietBi
+DEBUG 2021-02-04 09:53:59,973 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.DM_ThietBiDto
+DEBUG 2021-02-04 09:53:59,973 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.CreateOrEditDM_THONGTINQUANLY
+DEBUG 2021-02-04 09:53:59,974 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.DM_THONGTINQUANLYDto
+DEBUG 2021-02-04 09:53:59,975 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.CreateOrEditDM_TRAM
+DEBUG 2021-02-04 09:53:59,976 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.DM_TRAMDto
+DEBUG 2021-02-04 09:53:59,976 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.CreateOrEditDM_TRANGTHAI
+DEBUG 2021-02-04 09:53:59,976 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.DanhMuc.Dtos.DM_TRANGTHAIDto
+DEBUG 2021-02-04 09:53:59,976 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.Web.Models.Account.TenantChangeViewModel
+DEBUG 2021-02-04 09:53:59,977 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IOTProject.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2021-02-04 09:54:05,239 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2021-02-04 09:54:05,245 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2021-02-04 09:54:05,247 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.ThongTin.IThongTin_ThietBiAppService' with service name 'app/thongTin_ThietBi'.
+DEBUG 2021-02-04 09:54:05,250 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2021-02-04 09:54:05,252 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2021-02-04 09:54:05,254 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2021-02-04 09:54:05,256 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2021-02-04 09:54:05,259 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.DanhMuc.IDM_DonViAppService' with service name 'app/dM_DonVi'.
+DEBUG 2021-02-04 09:54:05,262 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.DanhMuc.IDM_SENSORAppService' with service name 'app/dM_SENSOR'.
+DEBUG 2021-02-04 09:54:05,264 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.DanhMuc.IDM_ThietBiAppService' with service name 'app/dM_ThietBi'.
+DEBUG 2021-02-04 09:54:05,266 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.DanhMuc.IDM_THONGTINQUANLYAppService' with service name 'app/dM_THONGTINQUANLY'.
+DEBUG 2021-02-04 09:54:05,269 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.DanhMuc.IDM_TRAMAppService' with service name 'app/dM_TRAM'.
+DEBUG 2021-02-04 09:54:05,273 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IOTProject.DanhMuc.IDM_TRANGTHAIAppService' with service name 'app/dM_TRANGTHAI'.
+DEBUG 2021-02-04 09:54:07,706 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"492167c0-e77e-4cd3-9060-c15b190b2911","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2021-02-04T09:54:07.6839166+07:00","Properties":{}}
+DEBUG 2021-02-04 09:54:07,714 [8    ] IOTProject.Web.SignalR.MyChatHub         - A client connected to MyChatHub: 492167c0-e77e-4cd3-9060-c15b190b2911
+WARN  2021-02-04 09:54:14,950 [7    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2021-02-04 09:54:58,954 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"edbcabfc-2ef5-4a33-ba25-51167c3d23d9","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-04T09:54:58.9531975+07:00","Properties":{}}
+DEBUG 2021-02-04 09:54:59,061 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: edbcabfc-2ef5-4a33-ba25-51167c3d23d9
+DEBUG 2021-02-04 09:55:11,898 [7    ] IOTProject.Web.SignalR.MyChatHub         - edbcabfc-2ef5-4a33-ba25-51167c3d23d9 send:ddddddddddddddddd
+DEBUG 2021-02-04 09:56:22,503 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"2fa4e6df-6150-415c-8554-8a3abdc3f034","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-04T09:56:22.5033132+07:00","Properties":{}}
+DEBUG 2021-02-04 09:56:22,520 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 2fa4e6df-6150-415c-8554-8a3abdc3f034
+DEBUG 2021-02-04 09:56:28,090 [9    ] IOTProject.Web.SignalR.MyChatHub         - 2fa4e6df-6150-415c-8554-8a3abdc3f034 send:ssssssss
+DEBUG 2021-02-04 09:56:37,800 [25   ] IOTProject.Web.SignalR.MyChatHub         - 2fa4e6df-6150-415c-8554-8a3abdc3f034 send:ssssssss
+DEBUG 2021-02-04 09:56:45,861 [27   ] IOTProject.Web.SignalR.MyChatHub         - 2fa4e6df-6150-415c-8554-8a3abdc3f034 send:ssssssss
+DEBUG 2021-02-04 09:56:48,184 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: edbcabfc-2ef5-4a33-ba25-51167c3d23d9
+DEBUG 2021-02-04 09:57:20,964 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"2368b221-0e01-44b2-8684-e78a09002111","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-04T09:57:20.9645732+07:00","Properties":{}}
+DEBUG 2021-02-04 09:57:20,980 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 2368b221-0e01-44b2-8684-e78a09002111
+DEBUG 2021-02-04 09:57:30,125 [9    ] IOTProject.Web.SignalR.MyChatHub         - 2368b221-0e01-44b2-8684-e78a09002111 send:sddddddd
+DEBUG 2021-02-04 09:57:32,252 [9    ] IOTProject.Web.SignalR.MyChatHub         - 2368b221-0e01-44b2-8684-e78a09002111 send:sddddddd
+DEBUG 2021-02-04 09:57:34,844 [6    ] IOTProject.Web.SignalR.MyChatHub         - 2368b221-0e01-44b2-8684-e78a09002111 send:sddddddd
+DEBUG 2021-02-04 09:57:35,604 [27   ] IOTProject.Web.SignalR.MyChatHub         - 2368b221-0e01-44b2-8684-e78a09002111 send:sddddddd
+DEBUG 2021-02-04 09:57:35,879 [6    ] IOTProject.Web.SignalR.MyChatHub         - 2368b221-0e01-44b2-8684-e78a09002111 send:sddddddd
+DEBUG 2021-02-04 09:57:36,331 [9    ] IOTProject.Web.SignalR.MyChatHub         - 2368b221-0e01-44b2-8684-e78a09002111 send:sddddddd
+DEBUG 2021-02-04 09:57:36,579 [7    ] IOTProject.Web.SignalR.MyChatHub         - 2368b221-0e01-44b2-8684-e78a09002111 send:sddddddd
+DEBUG 2021-02-04 09:57:43,103 [25   ] IOTProject.Web.SignalR.MyChatHub         - 2368b221-0e01-44b2-8684-e78a09002111 send:sdddddddvf
+DEBUG 2021-02-04 09:57:49,053 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 2fa4e6df-6150-415c-8554-8a3abdc3f034
+DEBUG 2021-02-04 10:02:15,428 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"92e9c91a-3c52-4432-9720-d1de086734aa","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-04T10:02:15.4280579+07:00","Properties":{}}
+DEBUG 2021-02-04 10:02:15,437 [40   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 92e9c91a-3c52-4432-9720-d1de086734aa
+DEBUG 2021-02-04 10:02:39,664 [40   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 2368b221-0e01-44b2-8684-e78a09002111
+DEBUG 2021-02-04 10:03:41,687 [35   ] IOTProject.Web.SignalR.MyChatHub         - 92e9c91a-3c52-4432-9720-d1de086734aa send:dddddd
+WARN  2021-02-04 10:03:52,386 [35   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2021-02-04 10:03:58,009 [35   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e9eb5463-8294-4e05-9633-2186df718f50","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2021-02-04T10:03:58.0095072+07:00","Properties":{}}
+DEBUG 2021-02-04 10:03:58,036 [40   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e9eb5463-8294-4e05-9633-2186df718f50
+DEBUG 2021-02-04 10:04:10,807 [42   ] IOTProject.Web.SignalR.MyChatHub         - e9eb5463-8294-4e05-9633-2186df718f50 send:fffffff
+DEBUG 2021-02-04 10:04:13,480 [40   ] IOTProject.Web.SignalR.MyChatHub         - e9eb5463-8294-4e05-9633-2186df718f50 send:fffffff
+DEBUG 2021-02-04 10:04:15,046 [40   ] IOTProject.Web.SignalR.MyChatHub         - e9eb5463-8294-4e05-9633-2186df718f50 send:fffffff
+DEBUG 2021-02-04 10:04:24,931 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 492167c0-e77e-4cd3-9060-c15b190b2911
+DEBUG 2021-02-04 10:04:24,933 [38   ] IOTProject.Web.SignalR.MyChatHub         - A client disconnected from MyChatHub: 492167c0-e77e-4cd3-9060-c15b190b2911
+DEBUG 2021-02-04 10:07:35,597 [34   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"eb9ff7ad-1afc-44e1-9bef-03813ea6cf11","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-04T10:07:35.5977032+07:00","Properties":{}}
+DEBUG 2021-02-04 10:07:35,683 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: eb9ff7ad-1afc-44e1-9bef-03813ea6cf11
+DEBUG 2021-02-04 10:07:40,760 [46   ] IOTProject.Web.SignalR.MyChatHub         - eb9ff7ad-1afc-44e1-9bef-03813ea6cf11 send:ddddddddd
+DEBUG 2021-02-04 10:07:44,634 [7    ] IOTProject.Web.SignalR.MyChatHub         - eb9ff7ad-1afc-44e1-9bef-03813ea6cf11 send:ddddddddd
+DEBUG 2021-02-04 10:07:45,594 [44   ] IOTProject.Web.SignalR.MyChatHub         - eb9ff7ad-1afc-44e1-9bef-03813ea6cf11 send:ddddddddd
+DEBUG 2021-02-04 10:08:00,934 [47   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 92e9c91a-3c52-4432-9720-d1de086734aa
+DEBUG 2021-02-04 10:08:10,180 [43   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"05e6adb2-6d11-440b-87c5-1c254c2fa402","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-04T10:08:10.1809625+07:00","Properties":{}}
+DEBUG 2021-02-04 10:08:10,189 [44   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 05e6adb2-6d11-440b-87c5-1c254c2fa402
+DEBUG 2021-02-04 10:08:16,665 [47   ] IOTProject.Web.SignalR.MyChatHub         - 05e6adb2-6d11-440b-87c5-1c254c2fa402 send:ddd
+DEBUG 2021-02-04 10:08:19,705 [53   ] IOTProject.Web.SignalR.MyChatHub         - 05e6adb2-6d11-440b-87c5-1c254c2fa402 send:ddd
+DEBUG 2021-02-04 10:08:36,214 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: eb9ff7ad-1afc-44e1-9bef-03813ea6cf11
+DEBUG 2021-02-04 10:08:38,612 [53   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"9d795a0f-964c-40ff-b044-dd6205da3cc8","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-04T10:08:38.6124673+07:00","Properties":{}}
+DEBUG 2021-02-04 10:08:38,625 [44   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 9d795a0f-964c-40ff-b044-dd6205da3cc8
+DEBUG 2021-02-04 10:09:00,670 [48   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"2c3bb0f0-c078-4adc-9c06-3d6340630352","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-04T10:09:00.6706283+07:00","Properties":{}}
+DEBUG 2021-02-04 10:09:00,711 [61   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 2c3bb0f0-c078-4adc-9c06-3d6340630352
+DEBUG 2021-02-04 10:09:06,297 [53   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 05e6adb2-6d11-440b-87c5-1c254c2fa402
+DEBUG 2021-02-04 10:09:07,516 [43   ] IOTProject.Web.SignalR.MyChatHub         - 2c3bb0f0-c078-4adc-9c06-3d6340630352 send:dffffffffff
+DEBUG 2021-02-04 10:09:08,960 [44   ] IOTProject.Web.SignalR.MyChatHub         - 2c3bb0f0-c078-4adc-9c06-3d6340630352 send:dffffffffff
+DEBUG 2021-02-04 10:09:09,273 [56   ] IOTProject.Web.SignalR.MyChatHub         - 2c3bb0f0-c078-4adc-9c06-3d6340630352 send:dffffffffff
+DEBUG 2021-02-04 10:09:26,352 [44   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 9d795a0f-964c-40ff-b044-dd6205da3cc8
+DEBUG 2021-02-04 10:09:33,722 [55   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"34fd504e-8d33-4bf2-90a9-80c9ac750989","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-04T10:09:33.7227543+07:00","Properties":{}}
+DEBUG 2021-02-04 10:09:33,733 [53   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 34fd504e-8d33-4bf2-90a9-80c9ac750989
+DEBUG 2021-02-04 10:09:37,104 [56   ] IOTProject.Web.SignalR.MyChatHub         - 34fd504e-8d33-4bf2-90a9-80c9ac750989 send:ddddd
+DEBUG 2021-02-04 10:09:41,884 [61   ] IOTProject.Web.SignalR.MyChatHub         - 34fd504e-8d33-4bf2-90a9-80c9ac750989 send:ddddd
+DEBUG 2021-02-04 10:09:45,352 [44   ] IOTProject.Web.SignalR.MyChatHub         - 34fd504e-8d33-4bf2-90a9-80c9ac750989 send:ddddd
+DEBUG 2021-02-04 10:10:01,581 [44   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 2c3bb0f0-c078-4adc-9c06-3d6340630352
+DEBUG 2021-02-04 10:15:45,336 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"401f9faa-a26a-4a20-b1ba-c9cb5a3ea62d","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-04T10:15:45.3363916+07:00","Properties":{}}
+DEBUG 2021-02-04 10:15:45,348 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 401f9faa-a26a-4a20-b1ba-c9cb5a3ea62d
+DEBUG 2021-02-04 10:16:11,773 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"0f674e77-93f2-4347-94a3-1aaeaba8075a","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-04T10:16:11.7735811+07:00","Properties":{}}
+DEBUG 2021-02-04 10:16:11,790 [56   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 0f674e77-93f2-4347-94a3-1aaeaba8075a
+DEBUG 2021-02-04 10:16:12,845 [62   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 34fd504e-8d33-4bf2-90a9-80c9ac750989
+DEBUG 2021-02-04 10:16:37,870 [60   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 401f9faa-a26a-4a20-b1ba-c9cb5a3ea62d
+DEBUG 2021-02-04 10:17:06,221 [62   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"252ca980-a8b9-4a7b-b62e-1439f4fe5778","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-04T10:17:06.2212255+07:00","Properties":{}}
+DEBUG 2021-02-04 10:17:06,231 [63   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 252ca980-a8b9-4a7b-b62e-1439f4fe5778
+DEBUG 2021-02-04 10:17:33,583 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 0f674e77-93f2-4347-94a3-1aaeaba8075a
+DEBUG 2021-02-04 10:17:36,289 [56   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f0544a40-9bc9-4ff6-904b-5771822e429c","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-04T10:17:36.2891556+07:00","Properties":{}}
+DEBUG 2021-02-04 10:17:36,310 [62   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f0544a40-9bc9-4ff6-904b-5771822e429c
+DEBUG 2021-02-04 10:18:03,706 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 252ca980-a8b9-4a7b-b62e-1439f4fe5778
+DEBUG 2021-02-04 10:18:50,100 [56   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: e9eb5463-8294-4e05-9633-2186df718f50
+DEBUG 2021-02-04 10:19:19,231 [43   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"3264af85-767c-4072-8850-e5f2adf49634","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-04T10:19:19.2314693+07:00","Properties":{}}
+DEBUG 2021-02-04 10:19:19,247 [56   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 3264af85-767c-4072-8850-e5f2adf49634
+DEBUG 2021-02-04 10:19:44,733 [62   ] IOTProject.Web.SignalR.MyChatHub         - 3264af85-767c-4072-8850-e5f2adf49634 send:das
+DEBUG 2021-02-04 10:19:48,848 [62   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f0544a40-9bc9-4ff6-904b-5771822e429c
+DEBUG 2021-02-04 10:22:23,886 [56   ] IOTProject.Web.SignalR.MyChatHub         - 3264af85-767c-4072-8850-e5f2adf49634 send:das
+WARN  2021-02-04 10:32:22,867 [59   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2021-02-04 10:32:49,605 [56   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"8ce1aa81-9a18-4308-8e88-f45e8facbcb9","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-04T10:32:49.6053398+07:00","Properties":{}}
+DEBUG 2021-02-04 10:32:49,614 [62   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 8ce1aa81-9a18-4308-8e88-f45e8facbcb9
+DEBUG 2021-02-04 10:32:49,616 [62   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 8ce1aa81-9a18-4308-8e88-f45e8facbcb9
+DEBUG 2021-02-04 10:32:55,833 [66   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 3264af85-767c-4072-8850-e5f2adf49634
+DEBUG 2021-02-04 10:33:06,277 [7    ] IOTProject.Web.SignalR.MyChatHub         - 8ce1aa81-9a18-4308-8e88-f45e8facbcb9 send:dfffff
+DEBUG 2021-02-04 10:33:18,091 [56   ] IOTProject.Web.SignalR.MyChatHub         - 8ce1aa81-9a18-4308-8e88-f45e8facbcb9 send:dfffff
+DEBUG 2021-02-04 10:36:39,964 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"4934658d-f77b-4093-94b9-be07b4c93ab8","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-04T10:36:39.9642827+07:00","Properties":{}}
+DEBUG 2021-02-04 10:36:40,007 [33   ] IOTProject.Web.SignalR.MyChatHub         - 4934658d-f77b-4093-94b9-be07b4c93ab8 send:Hi everybody, I'm connected to the chat!
+DEBUG 2021-02-04 10:36:40,009 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 4934658d-f77b-4093-94b9-be07b4c93ab8
+DEBUG 2021-02-04 10:36:40,010 [33   ] IOTProject.Web.SignalR.MyChatHub         - 4934658d-f77b-4093-94b9-be07b4c93ab8 send:Hi everybody, I'm connected to the chat!
+DEBUG 2021-02-04 10:36:40,019 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 4934658d-f77b-4093-94b9-be07b4c93ab8
+DEBUG 2021-02-04 10:37:06,536 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 8ce1aa81-9a18-4308-8e88-f45e8facbcb9
+DEBUG 2021-02-04 10:38:07,803 [62   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"d6212382-b381-4bc1-8055-251b908f6a50","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-04T10:38:07.8033323+07:00","Properties":{}}
+DEBUG 2021-02-04 10:38:07,865 [7    ] IOTProject.Web.SignalR.MyChatHub         - d6212382-b381-4bc1-8055-251b908f6a50 send:Hi everybody, I'm connected to the chat!
+DEBUG 2021-02-04 10:38:07,868 [44   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: d6212382-b381-4bc1-8055-251b908f6a50
+DEBUG 2021-02-04 10:38:07,871 [7    ] IOTProject.Web.SignalR.MyChatHub         - d6212382-b381-4bc1-8055-251b908f6a50 send:Hi everybody, I'm connected to the chat!
+DEBUG 2021-02-04 10:38:07,872 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: d6212382-b381-4bc1-8055-251b908f6a50
+DEBUG 2021-02-04 10:38:36,836 [44   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 4934658d-f77b-4093-94b9-be07b4c93ab8
+WARN  2021-02-04 13:39:01,822 [64   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2021-02-04 13:39:10,621 [61   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"baed3eb3-626a-4b01-a155-27a45f5150cc","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-04T13:39:10.6218361+07:00","Properties":{}}
+DEBUG 2021-02-04 13:39:10,631 [7    ] IOTProject.Web.SignalR.MyChatHub         - baed3eb3-626a-4b01-a155-27a45f5150cc send:Hi everybody, I'm connected to the chat!
+DEBUG 2021-02-04 13:39:10,632 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: baed3eb3-626a-4b01-a155-27a45f5150cc
+DEBUG 2021-02-04 13:39:35,577 [44   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: d6212382-b381-4bc1-8055-251b908f6a50
+DEBUG 2021-02-04 13:40:20,335 [59   ] IOTProject.Web.SignalR.MyChatHub         - baed3eb3-626a-4b01-a155-27a45f5150cc send:dddddd
+DEBUG 2021-02-04 13:45:51,949 [44   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"d28d4057-f840-458d-b35e-e04e7ac6f33e","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-04T13:45:51.9497061+07:00","Properties":{}}
+DEBUG 2021-02-04 13:45:51,959 [62   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: d28d4057-f840-458d-b35e-e04e7ac6f33e
+DEBUG 2021-02-04 13:45:58,065 [33   ] IOTProject.Web.SignalR.MyChatHub         - d28d4057-f840-458d-b35e-e04e7ac6f33e send:dd
+WARN  2021-02-04 13:46:12,940 [61   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2021-02-04 13:46:21,570 [62   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: baed3eb3-626a-4b01-a155-27a45f5150cc
+DEBUG 2021-02-04 13:46:39,195 [63   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"11eaefd6-0a22-4d8e-b3eb-0a04ac0f19fa","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-02-04T13:46:39.1951756+07:00","Properties":{}}
+DEBUG 2021-02-04 13:46:39,203 [44   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 11eaefd6-0a22-4d8e-b3eb-0a04ac0f19fa
+DEBUG 2021-02-04 13:46:57,479 [66   ] IOTProject.Web.SignalR.MyChatHub         - 11eaefd6-0a22-4d8e-b3eb-0a04ac0f19fa send:ddddd
+DEBUG 2021-02-04 13:47:16,222 [62   ] IOTProject.Web.SignalR.MyChatHub         - 11eaefd6-0a22-4d8e-b3eb-0a04ac0f19fa send:bbbbbbbb
